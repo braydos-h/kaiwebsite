@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>East Fremantle Sharpening</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo-container">
+        <h1 class="logo">East Fremantle Sharpening</h1>
+        <p class="tagline">Keeping Your Blades a Cut Above the Rest</p>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#prices">Prices</a></li>
+        <li><a href="#calculator">Calculator</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="contact-info">
+        <p>Phone: <a href="tel:0491379941">0491 379 941</a></p>
+        <p>Email: <a href="mailto:eastfremantlesharpeningservice@gmail.com">eastfremantlesharpeningservice@gmail.com</a>
+        </p>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Background Video -->
+  <section class="hero-section">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="https://videos.pexels.com/video-files/4510946/4510946-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-content">
+      <h2>Welcome to East Fremantle Sharpening</h2>
+      <p>
+        I’m a local blade enthusiast who loves making your knives, scissors, and garden tools perform like new.
+      </p>
+      <a href="#contact" class="hero-btn">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about-us" class="about-section section-fade">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Please contact us and arrange an appointment before heading to one these adresses to drop-off
+      </p>
+      <ul>
+        <li>246 Preston Point Road</li>
+        <li>7B Silas Street</li>
+      </ul>
+      <p>
+        We handle quick turnarounds and deliver razor-sharp results every time. Trust us—you’ll wonder why you ever put
+        up with a dull blade for so long!
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-us section-fade">
+    <div class="container">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Skilled and experienced hand sharpening</li>
+        <li>Top-grade equipment to ensure precision</li>
+        <li>Flexible drop-off and pick-up times</li>
+        <li>Affordable prices and transparent billing</li>
+        <li>Friendly, local, and always here to help</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section section-fade">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          🔪
+          <h3>Knife Sharpening</h3>
+          <p>Make your kitchen knives slicing-sharp again.</p>
+        </div>
+        <div class="service-card">
+          ✂️
+          <h3>Scissor Sharpening</h3>
+          <p>Precision edges for smooth, effortless cuts.</p>
+        </div>
+        <div class="service-card">
+          🧑‍🌾
+          <h3>Garden Tools</h3>
+          <p>Keep your pruners, shears, and blades in top shape.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Timeline -->
+  <section class="process-section section-fade">
+    <div class="container">
+      <h2>How It Works</h2>
+      <ol class="process-list">
+        <li><strong>Book an Appointment:</strong> Call, text or email to schedule.</li>
+        <li><strong>Drop Off:</strong> Bring your blades to one of our two drop-off points.</li>
+        <li><strong>Sharp & Shiny:</strong> We sharpen them with expert care and precision.</li>
+        <li><strong>Pick Up:</strong> Retrieve your razor-sharp items, ready for action.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Prices Section -->
+  <section id="prices" class="prices-section section-fade">
+    <div class="container">
+      <h2>Our Prices</h2>
+      <p>We want this to be easy on your wallet. Check out our simple rates below:</p>
+      <ul>
+        <li><strong>Minimum charge:</strong> $10 per blade</li>
+        <li><strong>Straight blades (including scissors):</strong> $1 per cm</li>
+        <li><strong>Serrated blades:</strong> $2 per cm</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Calculator Section (Placeholder) -->
+  <section id="calculator" class="calculator-section section-fade">
+    <div class="container">
+      <h2>Price Calculator</h2>
+      <p>Enter your blade length, and we’ll give you an estimate.</p>
+      <div class="calculator-form">
+        <label for="blade-type">Blade Type:</label>
+        <select id="blade-type">
+          <option value="straight">Straight</option>
+          <option value="serrated">Serrated</option>
+        </select>
+        <label for="blade-length">Blade Length (cm):</label>
+        <input type="number" id="blade-length" />
+        <button id="calculate-btn">Calculate</button>
+      </div>
+      <p id="calc-result"></p>
+    </div>
+  </section>
+
+  <!-- Gallery / Showcase Section -->
+  <section id="gallery" class="gallery-section section-fade">
+    <div class="container">
+      <h2>Our Showcase</h2>
+      <p>
+        Check out a few examples of blades and tools we’ve sharpened to perfection!
+      </p>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/showcase1.jpg" alt="Sharpened Knife Set" />
+        <div class="gallery-item">
+          <img src="images/showcase2.jpg" alt="Garden Shears Sharpening" />
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section section-fade">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <blockquote>
+
+        <cite>– Amazing service and very easy to deal with. To top it off, my knives are lovely and sharp! Thank you!
+          Will definitely use again.</cite>
+      </blockquote>
+      <blockquote>
+      </blockquote>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section-fade">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>
+        Phone: <a href="tel:0491379941">0491 379 941</a><br />
+        Email: <a href="mailto:eastfremantlesharpeningservice@gmail.com">eastfremantlesharpeningservice@gmail.com</a>
+      </p>
+      <p>Feel free to give us a call or shoot us an email to book your sharpening service today!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 East Fremantle Sharpening. </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
